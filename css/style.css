@@ -1,0 +1,238 @@
+.mymenu{
+    display: flex;
+    justify-content: space-around;
+}
+.jumpers{
+    text-align: center;
+    padding: 0;
+}
+.jumper{
+    display: inline-block;
+    width: 32%;
+}
+.jumper img{
+    width:100%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    padding: 0 0 0 0;
+    font-family: verdana, sans-serif;
+
+}
+
+
+.section7{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.section1 {
+    color: white;
+    min-height: 85vh;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+.button1{
+    border-radius: 12px;
+    background-color: white;
+}
+.section6{
+    margin-bottom: 20px;
+    height: 50vh;
+    width: 100%;
+}
+
+.section89{
+   padding-bottom: 10px;
+    font-size: 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fd712c+0,f21780+100 */
+    background: #fd712c; /* Old browsers */
+    background: -moz-linear-gradient(left, #fd712c 0%, #f21780 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #fd712c 0%,#f21780 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #fd712c 0%,#f21780 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd712c', endColorstr='#f21780',GradientType=1 ); /* IE6-9 */
+    min-height: 40vh;
+}
+.downloadsDivs{
+     display: flex;
+     flex-direction:column;
+     justify-content: space-around;
+    cursor: pointer;
+ }
+.section899{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.download{
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.downloadParts{
+    height: 115px;
+    width: 360px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.section9{
+    background-image: url("../img/sectiontlo.jpg");
+    height: 30vh;
+    color:red;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.navbar-collapse {
+    justify-content:: flex-end;
+}
+
+.section1-2{
+    font-family: Dosis;
+}
+.section1-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.section1-44{
+    font-size: 21px;
+}
+.section1-4 {
+    display: block;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.section2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media all{
+    .section6 object{width: 100%;
+    height: 50vh;}
+}
+
+.section4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section4-22{
+    margin-top:10%;
+}
+.section4-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section5{
+    text-align: center;
+    justify-content: center:
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.beforeBasic{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.beforeFreeTrial, .afterBuyNow{
+    margin-bottom: 10px;
+}
+.package{
+    width: 160px;
+    background-color: #e8f0ff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0;
+
+}
+
+.super{
+    vertical-align: super;
+}
+.sub{
+    vertical-align: sub;
+}
+
+.base {
+    background: white;
+    display: inline-block;
+    height: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 160px;
+}
+
+.base:before {
+    border-bottom: 35px solid white;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 25px;
+    width: 0;
+    transform: rotate(180deg);
+}
+
+.portfolio-menu ul li:hover {
+    background: tomato;
+    color: #ffffff;
+}
+
+.portfolio-item {
+    width: 100%;
+}
+
+.portfolio-item .item {
+    width: 303px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.li.active {
+    background: tomato;
+    color: #ffffff;
+
+}
+
+.slick-prev:before {
+    content: url("../img/4.jpg");
+}
+.slick-next:before {
+    content: url("../img/3.jpg");
+}
